@@ -4,6 +4,8 @@
 
 ## Install
 
+Make sure to uninstall old version first.
+
 [Download](https://golang.org/dl/)
 
 ```bash
@@ -17,3 +19,9 @@ export PATH=$GOPATH/bin:$PATH
 source ~/.zshrc
 ```
 
+## Uninstall
+
+```bash
+sudo rm -rf /usr/local/bin/go
+sudo rm -rf /etc/paths.d/go
+```
