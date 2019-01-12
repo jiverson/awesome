@@ -1,3 +1,7 @@
+# Go Lang
+
+[Go](https://golang.org/)
+
 ## Install
 
 [Download](https://golang.org/dl/)
