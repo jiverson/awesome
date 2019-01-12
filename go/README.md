@@ -25,3 +25,12 @@ source ~/.zshrc
 sudo rm -rf /usr/local/bin/go
 sudo rm -rf /etc/paths.d/go
 ```
+
+### Useful commands
+
+```bash 
+go run hello.go
+go install hello.go
+```
+
+
