@@ -16,9 +16,7 @@ sudo rm -rf /usr/local/bin/go
 sudo rm -rf /etc/paths.d/go
 ```
 
-# Modules
-
-## Quick Start
+## Modules Quick Start
 
 The details are covered in the remainder of this page, but here is a simple example of creating a module from scratch.
 
