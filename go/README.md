@@ -16,7 +16,7 @@ sudo rm -rf /usr/local/bin/go
 sudo rm -rf /etc/paths.d/go
 ```
 
-### Modules
+# Modules
 
 ## Quick Start
 
