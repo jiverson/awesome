@@ -83,6 +83,8 @@ https://peter.bourgon.org/go-best-practices-2016/#repository-structure
 https://www.ardanlabs.com/blog/2017/02/design-philosophy-on-packaging.html  
 https://www.youtube.com/watch?v=spKM5CyBwJA  
 
+### Linters
+https://github.com/golangci/golangci-lint
 
 ### Learn More
 https://github.com/magefile/mage
