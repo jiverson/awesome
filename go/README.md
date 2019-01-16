@@ -87,6 +87,8 @@ https://www.youtube.com/watch?v=spKM5CyBwJA
 ### Learn More
 https://github.com/magefile/mage
 
+### Issues
+https://medium.com/@leeprovoost/suppressing-accept-incoming-network-connections-warnings-on-osx-7665b33927ca
 
 ### Useful commands
 
