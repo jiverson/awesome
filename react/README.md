@@ -41,3 +41,6 @@ my-app
     ├── index.tsx
     └── serviceWorker.ts
 ```
+
+### Add sass
+```npm i node-sass```
