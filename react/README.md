@@ -17,7 +17,7 @@ npm i --save-dev prettier rxjs-tslint-rules tslint tslint-config-prettier tslint
 
 ### Folder structure  
 ```
-my-app
+my-app/
 ├── README.md
 ├── node_modules
 ├── .gitignore
@@ -26,14 +26,14 @@ my-app
 ├── package.json
 ├── tsconfig.json
 ├── tslint.json
-├── public
+├── public/
 │   ├── favicon.ico
 │   ├── index.html
 │   └── manifest.json
-└── src
-    └── assets
+└── src/
+    └── assets/
         └── logo.svg
-    └── components
+    └── components/
     ├── App.css
     ├── App.tsx
     ├── App.test.ts
