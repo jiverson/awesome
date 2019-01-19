@@ -2,6 +2,7 @@
 
 [React](https://reactjs.org/)  
 [mobx-state-tree](https://github.com/mobxjs/mobx-state-tree)  
+[Material UI](https://material-ui.com/)
 
 ## Create react app  
 ```bash
@@ -44,3 +45,9 @@ my-app/
 
 ### Add sass
 ```npm i node-sass```
+
+### Material UI
+```npm install @material-ui/core @material-ui/icons typeface-roboto```
+
+Add font by doing
+`import 'typeface-roboto';`
