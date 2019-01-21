@@ -1,5 +1,36 @@
 # Docker
 
+## Docker compose  
+$ docker-compose up -d         # start containers in background
+$ docker-compose kill          # stop containers
+$ docker-compose up -d --build # force rebuild of Dockerfiles
+$ docker-compose rm            # remove stopped containers
+$ docker ps                    # see list of running containers
+$ docker exec -ti [NAME] bash # ssh to the container
+
+# list all images
+docker images
+
+# tag and publishing
+docker tag <id> buonzz/name:version
+docker login
+docker push buonzz/name
+
+# delete image
+docker rmi -f <id>
+
+# run an image
+docker run yourusername/docker-whale
+
+# view logs
+docker logs [OPTIONS] CONTAINER
+
+# set the port to expose in host
+docker run -p 3000 my_image
+
+# start new container interactively
+docker container run -it
+
 ## Table of Contents
 
 * [Why Docker](#why-docker)
