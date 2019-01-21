@@ -1,12 +1,13 @@
 # Docker
 
 ## Docker compose  
-$ docker-compose up -d         # start containers in background
-$ docker-compose kill          # stop containers
-$ docker-compose up -d --build # force rebuild of Dockerfiles
-$ docker-compose rm            # remove stopped containers
-$ docker ps                    # see list of running containers
-$ docker exec -ti [NAME] bash # ssh to the container
+```bash
+docker-compose up -d         # start containers in background  
+docker-compose kill          # stop containers  
+docker-compose up -d --build # force rebuild of Dockerfiles
+docker-compose rm            # remove stopped containers
+docker ps                    # see list of running containers
+docker exec -ti [NAME] bash  # ssh to the container
 
 # list all images
 docker images
@@ -30,6 +31,7 @@ docker run -p 3000 my_image
 
 # start new container interactively
 docker container run -it
+```
 
 ## Table of Contents
 
