@@ -99,4 +99,16 @@ go run hello.go
 go install hello.go
 ```
 
+### Env variables
+```bash
+vim ~/.zshrc
+
+# add the following
+export GOPATH=$HOME/go
+export GOBIN=$GOPATH/bin
+export PATH=$GOPATH/bin:$PATH
+
+source ~/.zshrc
+```
+
 
