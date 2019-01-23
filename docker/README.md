@@ -73,6 +73,15 @@ docker volume ls -f dangling=true
 docker volume prune
 ```
 
+## Clean up all images, containers and volumes
+```
+docker system prune -a
+docker rmi $(docker images -a -q)
+docker stop $(docker ps -a -q)
+docker rm $(docker ps -a -q)
+docker volume prune
+```
+
 [Docker clean up](https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-containers-and-volumes)
 
 ## Table of Contents
