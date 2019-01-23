@@ -31,7 +31,49 @@ docker run -p 3000 my_image
 
 # start new container interactively
 docker container run -it
+
+# clean up any resources — images, containers, volumes, and networks
+docker system prune
+
+# remove any stopped containers and all unused images (not just dangling images)
+docker system prune -a
+
+# list dangling images
+docker images -f dangling=true
+
+# remove dangling images
+docker images purge
+
+# list all images
+docker images -a
+
+# remove all images
+docker rmi $(docker images -a -q)
+
+# list all containers
+docker ps -a
+
+# remove container
+docker rm <ID_or_Name ID_or_Name>
+
+# remove all containers
+docker stop $(docker ps -a -q)
+docker rm $(docker ps -a -q)
+
+# list all volumes
+docker volume ls
+
+# remove volume
+docker volume rm <volume_name volume_name>
+
+# list dangling volumes
+docker volume ls -f dangling=true
+
+# remove dangling volume
+docker volume prune
 ```
+
+[Docker clean up](https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-containers-and-volumes)
 
 ## Table of Contents
 
