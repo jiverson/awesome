@@ -8,6 +8,7 @@ docker-compose up -d --build # force rebuild of Dockerfiles
 docker-compose rm            # remove stopped containers
 docker ps                    # see list of running containers
 docker exec -ti [NAME] bash  # ssh to the container
+docker exec -it [NAME] sh    # ssh to container when alpine
 
 # list all images
 docker images
