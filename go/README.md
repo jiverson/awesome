@@ -82,6 +82,13 @@ https://medium.com/@benbjohnson/standard-package-layout-7cdbc8391fc1#.ds38va3pp
 https://peter.bourgon.org/go-best-practices-2016/#repository-structure  
 https://www.ardanlabs.com/blog/2017/02/design-philosophy-on-packaging.html  
 https://www.youtube.com/watch?v=spKM5CyBwJA  
+[graphql server](https://medium.com/open-graphql/choosing-a-graphql-server-library-in-go-8836f893881b)
+[project layout](https://medium.com/golang-learn/go-project-layout-e5213cdcfaa2)  
+[setup](https://medium.com/golang-learn/quick-go-setup-guide-on-mac-os-x-956b327222b8)  
+[gqlgen tutorial](https://github.com/vektah/gqlgen-tutorials/tree/master/gettingstarted)
+[gqlgen getting started](https://gqlgen.com/getting-started/)
+[graphql with go](https://hackernoon.com/graphql-with-golang-6e8da2054c25)
+
 
 ### Linters
 https://github.com/golangci/golangci-lint
